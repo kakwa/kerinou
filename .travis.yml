@@ -19,5 +19,8 @@ matrix:
   include:
     - python: "2.7"
       env: TEST_PEP8=1
+    - python: "2.7"
+      env: Unit tests
+
 after_success:
   - coveralls
