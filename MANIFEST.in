@@ -1,0 +1,2 @@
+recursive-include kerinou/templates *
+recursive-include kerinou/static *
